@@ -5,6 +5,22 @@
 // No conteúdo do botão, coloque o texto "Remover".
 import { useState } from "react";
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+
+const App = () => {
+  return (
+    <div>
+      <Header title="Bem-vindo à Loja de Livros" />
+      <Home />
+      <Footer desenvolvedor="Maria Antônia Moraes" />
+    </div>
+  );
+};
+
+ReactDOM.render(<App />, document.getElementById('root'));
+
+
 export default function Home() {
 
   const [listaProdutos, setProdutos] = useState([
