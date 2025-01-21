@@ -16,9 +16,7 @@ const App = () => {
       <Footer desenvolvedor="Maria Antônia Moraes" />
     </div>
   );
-};
-
-ReactDOM.render(<App />, document.getElementById('root'));
+}
 
 
 export default function Home() {
